@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body {
+	color: #191919;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px;
+	background-image: url(hawaii_images/hawaii_background.png);
+}
+#container{
+	width: 768px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+header {
+	width: 768px;
+	height: 250px;
+	background-image: url(hawaii_images/heart_to_hawaii.png);
+}
+	
+/*Float the main so it shows up next to the Aside. Reduce width by 150px so they both line the header.*/
+	
+main {
+    background-color: #FFFFFF;
+    width: 578px;
+    height: 6200px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+img {
+    float: right;
+    padding: 11px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+aside {
+	width: 150px;
+	height: 6100px;
+	background-color: #03919B;
+	float: left;	
+	color: #FFFFFF;
+}
+
+p {
+    font-family: kigelia-lgc,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 540px;
+	color: #40BAA4;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+ul, ol, li {
+	color: #FF925A;
+}
+h4{
+font-size: 15pt;
+color: #FFCE76;
+}
+h3  {
+	font-size: 12pt;
+	padding: 10px;
+}
+
+h2 {
+	color: #1F8276;
+	font-family: myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h1 {
+	color: #1F8276;
+	font-family: myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+article {
+	margin-bottom: 50px;
+}
+	
+
+nav {
+	width: 768px;
+	height: 50px;
+}
+
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 60px;
+	margin: 12px 60px 0px 0px;
+	font-family: goodlife-brush, sans-serif; font-style: normal; font-size: 15pt;
+}
+
+#container nav ul {
+	margin: auto;
+	width: 480px;
+}
+
+nav	a:link {
+	color: #BCEAF6;
+	text-decoration: none;
+	padding: 8px;
+}
+nav	a:visited {
+	color: #9DDED6;
+	text-decoration: none;
+	padding: 8px;
+}
+nav	a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #1F8276;
+	border-radius: 20px;
+	padding: 8px;
+}
+nav	a:active {
+	color: #40BAA4;
+	text-decoration: none;
+	padding: 8px;
+}
+  
+.submit_btn {
+	width: 150px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #F7935A;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 13px;
+	-webkit-box-shadow: 6px 6px 40px 1px #323232;
+	box-shadow: 6px 6px 40px 1px #323232;
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+	box-shadow: 6px 6px 35px 1px #000000;
+}
+
+
+footer {
+	width: 768px;
+	height: 50px;
+	background-color: #E6F4BE;
+	clear: both;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
